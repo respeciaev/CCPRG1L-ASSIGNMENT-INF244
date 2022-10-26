@@ -1,0 +1,51 @@
+public class assignment2 {
+    public static void main(String[] args) {
+          //1.while-loop to print FIRSTNAME three times
+            int i = 1;
+    
+            while(i < 4) {
+                System.out.println("ERYX VON");
+    
+                i++;
+        }
+          //2.do-while loop to print MIDDLE NAME four times
+            int m = 1;
+     
+            // Do-while loop
+            do {
+    
+             System.out.println("ANCHETA");
+    
+             
+                m++;
+            }
+            
+             while (m < 5);
+        
+          //3.for loop to print SURNAME five times
+            int n = 5;
+            // for loop  
+             for (int l = 1; l <= n; ++l) {
+              System.out.println("RESPECIA");
+        }
+    
+          //4.char array that consists all of your FIRSTNAME 
+          //for loop to print each character of your FIRSTNAME
+            char[] firstnamecharacter = {'E', 'R', 'Y', 'X', 'V', 'O', 'N'};
+            //for loop
+              for (int count4 = 0; count4 < firstnamecharacter.length; count4++ ){
+                System.out.println(firstnamecharacter[count4]);
+    
+              }
+    
+          //5.for loop to print char array of your FIRSTNAME 
+          //in REVERSE order
+            char[] firstnameinreverse = {'N', 'O', 'V', 'X', 'Y', 'R', 'E'};
+            //for loop
+              for (int count5 = 0; count5 < firstnameinreverse.length; count5++ ){
+                System.out.println(firstnameinreverse[count5]);
+    
+        }
+    
+    } 
+}
